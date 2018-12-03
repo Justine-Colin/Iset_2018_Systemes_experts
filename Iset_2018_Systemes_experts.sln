@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iset_2018_Systemes_experts", "Iset_2018_Systemes_experts\Iset_2018_Systemes_experts.csproj", "{2CE6E067-B1F3-4FF4-8B9E-ABC85EF5DCCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CE6E067-B1F3-4FF4-8B9E-ABC85EF5DCCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE6E067-B1F3-4FF4-8B9E-ABC85EF5DCCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE6E067-B1F3-4FF4-8B9E-ABC85EF5DCCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE6E067-B1F3-4FF4-8B9E-ABC85EF5DCCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6BB20C3-542C-463A-80CC-AF53ADC3B737}
+	EndGlobalSection
+EndGlobal
