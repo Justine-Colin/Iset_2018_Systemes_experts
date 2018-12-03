@@ -1,0 +1,11 @@
+R1 : SI(Ordre=3(Ordre [3,4] ?)) ALORS Triangle
+R2 : SI(Triangle ET Angle Droit(Au moins un angle droit [o,n] ?)) ALORS Triangle Rectangle
+R3 : SI(Triangle ET Cotes Egaux=2(Combien de côtés égaux [0,2,3] ?)) ALORS Triangle Isocèle
+R4 : SI(Triangle Rectangle ET Triangle Isocèle) ALORS Triangle Rectangle Isocèle
+R5 : SI(Triangle ET Cotes Egaux=3(Combien de côtés égaux [0,2,3] ?)) ALORS Triangle Equilateral
+R6 : SI(Ordre=4(Ordre [3,4) ?)) ALORS Quadrilatère
+R7 : SI(Quadrilatère ET Cotes Paralleles=2(Combien de côtés parallèles entre eux [0,2,4] ?)) ALORS Trapeze
+R8 : SI(Quadrilatère ET Cotes Paralleles=4(Combien de côtés parallèles entre eux [0,2,4] ?)) ALORS Parallélogramme
+R9 : SI(Parallélogramme ET Angle Droit(Au moins un angle droit [o,n) ?]) ALORS Rectangle
+R10 : SI(Parallélogramme ET Cotes Egaux=4(Combien de côtés égaux [2,4] ?)) ALORS Losange
+R11 : SI(Rectangle ET Losange) ALORS Carré

@@ -1,6 +1,6 @@
 ﻿namespace Iset_2018_Systemes_experts
 {
-    partial class Form1
+    partial class FicPrincipal
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FicPrincipal
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(899, 565);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "FicPrincipal";
+            this.Text = "Systèmes experts";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

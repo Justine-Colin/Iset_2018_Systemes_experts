@@ -10,11 +10,15 @@ using System.Windows.Forms;
 
 namespace Iset_2018_Systemes_experts
 {
-    public partial class FicPrincipal : Form
+    public partial class FicQuestion : Form
     {
-        public FicPrincipal()
+        public FicQuestion(string sQuestion)
         {
             InitializeComponent();
+            LblQuestion.Text = sQuestion;
         }
+
+        public string Reponse
+        { get { return Tb_Reponse.Text; } }
     }
 }
