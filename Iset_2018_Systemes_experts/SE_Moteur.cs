@@ -76,6 +76,7 @@ namespace Iset_2018_Systemes_experts
         { return _BD_Regles.Regles.Count; }
         public void Resoudre()
         {
+            _IHM.AfficherRegles(_BD_Regles.Regles);
             bool ResteRegles = true;
             SE_Regles ReglesDispo = new SE_Regles
             {
